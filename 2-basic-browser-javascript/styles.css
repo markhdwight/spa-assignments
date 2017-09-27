@@ -1,0 +1,105 @@
+body{
+    margin:0;
+}
+
+.app{
+    margin:0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    background-color:pink;
+    color: rgba(0, 0, 0, 0.87);
+    justify-content:center;
+    align-items:center;
+    flex-grow:1;
+    text-align:center;
+    font-size:large;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    flex-grow:13;
+    align-content:stretch;
+}
+
+.button{
+    display: flex;
+    background-color:white;
+    color: rgba(0, 0, 0, 0.87);
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size:medium;
+}
+
+.multiply_button{
+    display: flex;
+    background-color:grey;
+    color: rgba(0, 0, 0, 0.87);
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:flex-start;
+    font-size:medium;
+}
+
+.autoclick_button{
+    display: flex;
+    background-color:grey;
+    color: rgba(0, 0, 0, 0.87);
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:flex-end;
+    font-size:medium;
+}
+
+.center{
+    display: flex;
+    background-color:green;
+    justify-content:center;
+    align-items:center;
+    width:960px;
+}
+
+.left{
+    display: flex;
+    background-color:red;
+    justify-content: flex-start;
+    align-items:center;
+    flex-grow:1;
+}
+
+.right{
+    display: flex;
+    background-color:blue;
+    justify-content:flex-end;
+    align-items:center;
+    flex-grow:1;
+}
+
+.footer{
+    display: flex;
+    background-color:grey;
+    color: rgba(0, 0, 0, 0.87);
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    flex-grow:1;
+    text-align:center;
+    font-size:small;
+}

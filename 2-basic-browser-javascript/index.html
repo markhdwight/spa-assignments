@@ -4,21 +4,43 @@
     <meta charset="utf-8">
     <title>the holy grail</title>
     <link rel="stylesheet" href="./styles.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="./js.cookie.js"></script>
     <script src="./main.js"></script>
   </head>
   <body>
     <div class="app">
-      <div class="header">
-        Total: 0
+      <div class="header" id="header">
+        <div id= "header_label">
+          Total: 0 
+        </div>
+        <button id="reset_button">
+          Reset
+        </button>
       </div>
       <div class="body">
-        <div class="left"></div>
+        <div class="left", id="left">
+          Cost: 10
+          <div class="multiply_button" id="multiply_button">
+            *1.2
+          </div>
+        </div>
         <div class="center">
-          <div class="button">
+          <div class="button" id="button">
             +1
           </div>
         </div>
-        <div class="right"></div>
+        <div class="right" id="right">
+          <div class = "autoclick_button" id="autoclick_button">
+              +1
+          </div>
+          <div id="right_label">
+            Cost: 100
+          </div>
+        </div>       
       </div>
       <div class="footer">
         Made w/ &lt;3 @ FastTrack'D
